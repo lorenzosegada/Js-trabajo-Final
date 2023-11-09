@@ -1,0 +1,304 @@
+body {
+    background-color:  #181D31;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+footer {
+    background-color: #678983;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+.botones button{
+  color: black;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color:  #E6DDC4;
+  box-shadow: 2px 3px #678983;
+  outline: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: white;
+    height: 60px;
+    padding: 25px;
+  }
+
+  .logo {
+    text-decoration: none;
+  }
+
+  .ImagenPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/codigo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+
+  }
+
+  .TituloPrincipal {
+    color: white;
+    text-shadow: 1px 5px black, 3px 5px grey;
+    font-size: 55px;
+  }
+
+  .tituloSecundario {
+    text-align: center;
+    color: #678983;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+  }
+
+  .section-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 70vh;
+  }
+
+  .tarjeta{ 
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #678983;
+    background-color:  #E6DDC4;
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #tarjeta-juego{
+    padding-top: 17px;
+  }
+
+  .textoImagenes button {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #181D31;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+    width: 40%;
+  }
+
+
+
+.tarjeta-img {
+    height: 257px;
+}
+  footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+  }
+
+  .logo-footer {
+    display: flex;
+   
+  }
+
+  .img-footer {
+    height: 90px;
+    padding-right: 40px;
+  }
+  .copyright {
+    padding: 25px;
+  }
+
+  h2 {
+   color: #678983; 
+   font-size: 40px;
+  }
+
+
+  .contenedor-padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #E6DDC4;
+    padding: 100px;
+    gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 2 / 1 / 3 / 3; }
+    .div3 { grid-area: 3 / 1 / 4 / 3; }
+
+
+
+    .div2 {
+      display: flex;
+      text-align: left;
+      flex-direction: row-reverse;
+    }
+
+    #historia {
+      display: flex;
+      text-align: center;
+      height: 30vh;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .p-historia {
+      width: 100%;
+      font-size: 17px;
+    }
+
+.titulo-article {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.video-informativo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 6px;
+  width:fit-content;
+  margin: auto;
+
+}
+
+.tiempo {
+  color: white;
+  margin-right: 10px;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  background-color: #1D1D1D;
+  justify-content: space-between;
+  border-radius: 5px;
+  height: 80px;
+  gap: 20px;
+}
+
+video {
+  height: 600px;
+}
+
+
+.boton-video {
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color:  #E6DDC4;
+  box-shadow: 3px 3px #678983;
+  margin: auto;
+  padding: 10px 35px;
+  margin-left: 10px;
+}
+
+
+.boton-video2 {
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color:  #E6DDC4;
+  box-shadow: 3px 3px #678983;
+  margin: auto;
+  padding: 10px 35px;
+  margin-left: 10px;
+}
+
+.rompecabezas {
+  width: 275px;
+  height: 400px;
+}
+
+.cuadro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: grey;
+  width: 275px;
+  height: 400px;
+}
+
+
+.cuadro p {
+  display: flex;
+  justify-content: center;
+  color: #E6DDC4;
+}
+
+.tarjeta-rompe {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cuadro:hover {
+  background-color: #1D1D1D;
+}
+
+#imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;  
+  margin-top: 40px;
+}
+
+.boton-rompecabezas {
+  border-radius: 10px;
+  background-color:  #E6DDC4;
+  box-shadow: 3px 3px #678983;
+  padding: 10px 100px;
+  margin-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.boton-juego {
+  display: flex;
+  justify-content: center;
+}
+
+.compClarita {
+  animation: appearFromTop 1.8s ease-out forwards;
+  animation-delay: 0.5s; 
+}
+
+.compOscura {
+  animation: appearFromTop 2.4s ease-out forwards;
+  animation-delay: 0.5s; 
+}
+
+@keyframes appearFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+ 

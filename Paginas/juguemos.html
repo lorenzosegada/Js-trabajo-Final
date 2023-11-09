@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Final</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../imagenes/logo.png">
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="logo">
+            <svg swidth="180" height="70">
+
+                <rect class="compClarita" x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+
+                <rect class="compOscura" x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
+
+                <polygon class="compClarita" points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+
+                <polygon class="compOscura" points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+            </svg>
+        </a>
+               <nav class="botones">
+                <a href="./historia.html"><button>HISTORIA</button></a>
+                <a href="./juguemos.html"><button>JUGUEMOS</button></a>
+          </nav>
+        </header>
+    <section class="ImagenPrincipal">
+        <h1 class="TituloPrincipal"> JUGUEMOS UN POCO</h1>
+    </section>
+ 
+    <main>
+        <section>
+          <h2 class="tituloSecundario">Armemos el rompecabezas y veamos qué imagen es...</h2>
+        </section>
+        <section class="tarjeta-rompe">
+          <div class="cuadro" id="0" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="arrastre">Arrastre y suelte la imagen aquí</p>
+          </div>
+          <div class="cuadro" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="arrastre">Arrastre y suelte la imagen aquí</p>
+          </div>
+          <div class="cuadro" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="arrastre">Arrastre y suelte la imagen aquí</p>
+          </div>
+        </section>
+        <section id="imagenes">
+          <img class="rompecabezas" src="../imagenes/rompe2.png" alt="Imagen de rompecabezas 2" ondragstart="drag(event)" id="img1">
+          <img class="rompecabezas" src="../imagenes/Rompe1.png" alt="Imagen de rompecabezas 1" ondragstart="drag(event)" id="img2">
+          <img class="rompecabezas" src="../imagenes/Rompe3.png" alt="Imagen de rompecabezas 3" ondragstart="drag(event)" id="img3">
+        </section>
+        <div class="boton-juego">
+          <button onclick="botonReiniciar()" class="boton-rompecabezas">Reiniciar</button>
+        </div>
+      </main>
+      
+    <script src="./script.js"></script>
+</body>
+</html>
