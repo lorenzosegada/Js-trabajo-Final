@@ -43,7 +43,7 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
 
     const cuadro = ev.target;
-    const hiddenP = cuadro.querySelector("p.arrastre");
+    const hiddenP = cuadro.querySelector(".arrastre");
     if (hiddenP) {
       hiddenP.style.display = "none";
     }
